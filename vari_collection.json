@@ -1,0 +1,370 @@
+[
+  {
+    "familyName": "ராஜன்",
+    "guardianName": "ராமசந்திரன்",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "சூர்யபிரகாஷ்",
+    "guardianName": "பெரியசாமி",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "பிரதீப்",
+    "guardianName": "பெரியசாமி",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      7500.0
+    ],
+    "totalAssessed": 7500.0
+  },
+  {
+    "familyName": "A. முருகன்",
+    "guardianName": "அய்யாவு",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "P. கவாஸ்கர்",
+    "guardianName": "பொன்னுச்சாமி",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "M. லோகநாதன்",
+    "guardianName": "முருகன்",
+    "place": "கன்னிவாடி",
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "M. சங்கிலி",
+    "guardianName": "முருகன்",
+    "place": "கன்னிவாடி",
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "C. சுபாஷ்",
+    "guardianName": "சின்னக்கண்ணு",
+    "place": "பெருமாள்பட்டி",
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "C. ரமேஷ்",
+    "guardianName": "சின்னக்கண்ணு",
+    "place": "பெருமாள்பட்டி",
+    "remarks": "Listed under 8 / Perumalpatti",
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "R. சுரேஷ்",
+    "guardianName": "ராஜேந்திரன்",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "R. பிரகாஷ்",
+    "guardianName": "ராஜேந்திரன்",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "A. கார்த்திக்",
+    "guardianName": "அன்பு",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "A. சூர்யபிரகாஷ்",
+    "guardianName": "அன்பு",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "R. சதீஷ்",
+    "guardianName": "ராஜேந்திரன்",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "T. கிருஷ்ணன்",
+    "guardianName": "திருமேனி",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "T. ராசுக்குட்டி",
+    "guardianName": "வடிவேலன்",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "T. கிருஷ்ணன் (இட்டவேட்)",
+    "guardianName": null,
+    "place": null,
+    "remarks": "இட்டவேட்",
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "C. ராஜசேகரன்",
+    "guardianName": "சின்னு",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "R. சஞ்சய் , K. விஜய்",
+    "guardianName": "குமார்",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      7500.0
+    ],
+    "totalAssessed": 7500.0
+  },
+  {
+    "familyName": "T. பாஸ்கரன்",
+    "guardianName": "திருமேனி",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      10000.0
+    ],
+    "totalAssessed": 10000.0
+  },
+  {
+    "familyName": "P. மனோபாலன்",
+    "guardianName": "பொன்னுச்சாமி",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      10000.0
+    ],
+    "totalAssessed": 10000.0
+  },
+  {
+    "familyName": "P. கிருஷ்ணன்",
+    "guardianName": "பிச்சை",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      10000.0
+    ],
+    "totalAssessed": 10000.0
+  },
+  {
+    "familyName": "K. குருவர்",
+    "guardianName": "கிருஷ்ணன்",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      10000.0
+    ],
+    "totalAssessed": 10000.0
+  },
+  {
+    "familyName": "K. லோகநாதன்",
+    "guardianName": "கருத்தக்கண்ணு",
+    "place": null,
+    "remarks": "2 payments (10,000 + 5,000)",
+    "installments": [
+      10000.0,
+      5000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "K. புகழேந்திரன்",
+    "guardianName": "கருத்தக்கண்ணு",
+    "place": null,
+    "remarks": "2 payments (10,000 + 5,000)",
+    "installments": [
+      10000.0,
+      5000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "K. முத்துக்குமார்",
+    "guardianName": "கருத்தக்கண்ணு",
+    "place": null,
+    "remarks": "2 payments (5,000 + 10,000)",
+    "installments": [
+      5000.0,
+      10000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "பொன்னுச்சாமி",
+    "guardianName": "சின்னு",
+    "place": "மேலக்கால்",
+    "remarks": null,
+    "installments": [
+      10000.0
+    ],
+    "totalAssessed": 10000.0
+  },
+  {
+    "familyName": "P. பிரசாந்த்",
+    "guardianName": "போஸ்",
+    "place": null,
+    "remarks": "2 payments (10,000 + 5,000)",
+    "installments": [
+      10000.0,
+      5000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "அழகர்",
+    "guardianName": "திருமேனி",
+    "place": null,
+    "remarks": "2 payments (5,000 + 5,000)",
+    "installments": [
+      5000.0,
+      5000.0
+    ],
+    "totalAssessed": 10000.0
+  },
+  {
+    "familyName": "கண்ணன்",
+    "guardianName": "ராமநாதன்",
+    "place": "பாண்டியராஜபுரம்",
+    "remarks": null,
+    "installments": [
+      5000.0
+    ],
+    "totalAssessed": 5000.0
+  },
+  {
+    "familyName": "தமிழரசன்",
+    "guardianName": "மகாராஜன்",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      3000.0
+    ],
+    "totalAssessed": 3000.0
+  },
+  {
+    "familyName": "ஈஸ்வரன்",
+    "guardianName": "நீலமேகம்",
+    "place": null,
+    "remarks": "3 payments (2,000 + 3,000 + 10,000)",
+    "installments": [
+      2000.0,
+      3000.0,
+      10000.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "இளசுராஜ்",
+    "guardianName": null,
+    "place": null,
+    "remarks": "2 payments (7,500 + 7,500)",
+    "installments": [
+      7500.0,
+      7500.0
+    ],
+    "totalAssessed": 15000.0
+  },
+  {
+    "familyName": "சூரியன்",
+    "guardianName": null,
+    "place": null,
+    "remarks": null,
+    "installments": [
+      10000.0
+    ],
+    "totalAssessed": 10000.0
+  },
+  {
+    "familyName": "சூர்யபிரகாஷ்",
+    "guardianName": "பொன்னுச்சாமி",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      5000.0
+    ],
+    "totalAssessed": 5000.0
+  },
+  {
+    "familyName": "E. திலீபன்",
+    "guardianName": "இருளப்பன்",
+    "place": null,
+    "remarks": null,
+    "installments": [
+      15000.0
+    ],
+    "totalAssessed": 15000.0
+  }
+]

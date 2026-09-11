@@ -1,0 +1,1055 @@
+[
+  {
+    "sno": 1,
+    "date": "2025-02-06",
+    "event": "ஸ்ரீ சூராயி அம்மன் - காப்பு கட்டு செலவு",
+    "particularsTamil": "பூஜை சாமான்",
+    "descriptionEnglish": "Pooja Items",
+    "category": "Pooja & Rituals",
+    "amount": 400.0
+  },
+  {
+    "sno": 2,
+    "date": "2025-02-06",
+    "event": "ஸ்ரீ சூராயி அம்மன் - காப்பு கட்டு செலவு",
+    "particularsTamil": "நையாண்டி மேளம்",
+    "descriptionEnglish": "Naiyandi Melam (Band)",
+    "category": "Music & Sound",
+    "amount": 7500.0
+  },
+  {
+    "sno": 3,
+    "date": "2025-02-06",
+    "event": "ஸ்ரீ சூராயி அம்மன் - காப்பு கட்டு செலவு",
+    "particularsTamil": "Bill (பில் பொருட்கள்)",
+    "descriptionEnglish": "General Provisions / Bill",
+    "category": "Provisions",
+    "amount": 450.0
+  },
+  {
+    "sno": 4,
+    "date": "2025-02-06",
+    "event": "ஸ்ரீ சூராயி அம்மன் - காப்பு கட்டு செலவு",
+    "particularsTamil": "மாலை",
+    "descriptionEnglish": "Garland",
+    "category": "Flowers & Garlands",
+    "amount": 250.0
+  },
+  {
+    "sno": 5,
+    "date": "2025-02-06",
+    "event": "ஸ்ரீ சூராயி அம்மன் - காப்பு கட்டு செலவு",
+    "particularsTamil": "மல்லிகைப் பூ",
+    "descriptionEnglish": "Jasmine Flowers",
+    "category": "Flowers & Garlands",
+    "amount": 80.0
+  },
+  {
+    "sno": 6,
+    "date": "2025-02-14",
+    "event": "விநாயகர், பகவதி & சூராயி அம்மன் - மாசி கிளரி செலவு",
+    "particularsTamil": "பில்: வெல்லம் (15), அரிசி (10kg), மற்ற பொருட்கள்",
+    "descriptionEnglish": "Bill: Jaggery 15kg, Rice 10kg, others",
+    "category": "Prasadam & Food",
+    "amount": 2262.0
+  },
+  {
+    "sno": 7,
+    "date": "2025-02-14",
+    "event": "விநாயகர், பகவதி & சூராயி அம்மன் - மாசி கிளரி செலவு",
+    "particularsTamil": "ஜவுளி",
+    "descriptionEnglish": "Textiles / Clothes (Javuli)",
+    "category": "Textiles & Clothes",
+    "amount": 1710.0
+  },
+  {
+    "sno": 8,
+    "date": "2025-02-14",
+    "event": "விநாயகர், பகவதி & சூராயி அம்மன் - மாசி கிளரி செலவு",
+    "particularsTamil": "Plate (தட்டுகள்)",
+    "descriptionEnglish": "Plates",
+    "category": "Materials & Supplies",
+    "amount": 530.0
+  },
+  {
+    "sno": 9,
+    "date": "2025-02-14",
+    "event": "விநாயகர், பகவதி & சூராயி அம்மன் - மாசி கிளரி செலவு",
+    "particularsTamil": "பூ - மாலை",
+    "descriptionEnglish": "Flowers & Garlands",
+    "category": "Flowers & Garlands",
+    "amount": 2500.0
+  },
+  {
+    "sno": 10,
+    "date": "2025-02-14",
+    "event": "விநாயகர், பகவதி & சூராயி அம்மன் - மாசி கிளரி செலவு",
+    "particularsTamil": "Mic - set",
+    "descriptionEnglish": "Mic & Sound System",
+    "category": "Music & Sound",
+    "amount": 1500.0
+  },
+  {
+    "sno": 11,
+    "date": "2025-02-14",
+    "event": "விநாயகர், பகவதி & சூராயி அம்மன் - மாசி கிளரி செலவு",
+    "particularsTamil": "தேங்காய் - வாழைப்பழம்",
+    "descriptionEnglish": "Coconut & Bananas",
+    "category": "Pooja & Rituals",
+    "amount": 1000.0
+  },
+  {
+    "sno": 12,
+    "date": "2025-02-14",
+    "event": "விநாயகர், பகவதி & சூராயி அம்மன் - மாசி கிளரி செலவு",
+    "particularsTamil": "பயிறு",
+    "descriptionEnglish": "Pulses / Grams",
+    "category": "Prasadam & Food",
+    "amount": 500.0
+  },
+  {
+    "sno": 13,
+    "date": "2025-02-14",
+    "event": "விநாயகர், பகவதி & சூராயி அம்மன் - மாசி கிளரி செலவு",
+    "particularsTamil": "சர்க்கரை - காகிதாள்",
+    "descriptionEnglish": "Sugar & Paper Wrappers",
+    "category": "Prasadam & Food",
+    "amount": 210.0
+  },
+  {
+    "sno": 14,
+    "date": "2026-02-14",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "ஐயர் அட்வான்ஸ்",
+    "descriptionEnglish": "Priest (Iyer) Advance",
+    "category": "Priest & Rituals",
+    "amount": 1000.0
+  },
+  {
+    "sno": 15,
+    "date": "2026-02-14",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "மஞ்சள் Bill",
+    "descriptionEnglish": "Turmeric Bill",
+    "category": "Pooja & Rituals",
+    "amount": 613.0
+  },
+  {
+    "sno": 16,
+    "date": "2026-02-14",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "குமரன் டெக்ஸ்",
+    "descriptionEnglish": "Kumaran Tex (Textiles)",
+    "category": "Textiles & Clothes",
+    "amount": 100.0
+  },
+  {
+    "sno": 17,
+    "date": "2026-02-14",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "பூஜை செட்",
+    "descriptionEnglish": "Pooja Set",
+    "category": "Pooja & Rituals",
+    "amount": 490.0
+  },
+  {
+    "sno": 18,
+    "date": "2026-02-14",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "வண்டி வாடகை டீசல்",
+    "descriptionEnglish": "Vehicle Rent & Diesel",
+    "category": "Travel & Transport",
+    "amount": 600.0
+  },
+  {
+    "sno": 19,
+    "date": "2026-06-28",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "பலகை வாங்கியது",
+    "descriptionEnglish": "Wooden Planks Purchase",
+    "category": "Civil & Renovation",
+    "amount": 1500.0
+  },
+  {
+    "sno": 20,
+    "date": "2026-06-28",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "கூலி இடிக்க அட்வான்ஸ்",
+    "descriptionEnglish": "Demolition / Labor Advance",
+    "category": "Labor & Wage",
+    "amount": 4000.0
+  },
+  {
+    "sno": 21,
+    "date": "2026-06-28",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "பெயிண்ட் வாங்கியது பில்",
+    "descriptionEnglish": "Paint Purchase Bill (1)",
+    "category": "Civil & Renovation",
+    "amount": 350.0
+  },
+  {
+    "sno": 22,
+    "date": "2026-06-28",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "பெயிண்ட் வாங்கியது பில்",
+    "descriptionEnglish": "Paint Purchase Bill (2)",
+    "category": "Civil & Renovation",
+    "amount": 80.0
+  },
+  {
+    "sno": 23,
+    "date": "2026-07-04",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "பாண்டியன் ஸ்டோர் பூஜை சாமான்கள்",
+    "descriptionEnglish": "Pandiyan Store Pooja Items",
+    "category": "Pooja & Rituals",
+    "amount": 3189.0
+  },
+  {
+    "sno": 24,
+    "date": "2026-07-04",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "குமரன் கடை வேஷ்டி துண்டு",
+    "descriptionEnglish": "Kumaran Store Dhoti & Towel",
+    "category": "Textiles & Clothes",
+    "amount": 140.0
+  },
+  {
+    "sno": 25,
+    "date": "2026-07-04",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "பழ வகைகள் (அனைத்து பழங்களும்)",
+    "descriptionEnglish": "Mixed Fresh Fruits",
+    "category": "Pooja & Rituals",
+    "amount": 750.0
+  },
+  {
+    "sno": 26,
+    "date": "2026-07-04",
+    "event": "சூராயி அம்மன் கும்பாபிஷேக செலவு",
+    "particularsTamil": "பூ மாலை",
+    "descriptionEnglish": "Flower Garland",
+    "category": "Flowers & Garlands",
+    "amount": 600.0
+  },
+  {
+    "sno": 27,
+    "date": "2026-07-05",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "ஐயர் பாலாலயம்",
+    "descriptionEnglish": "Priest Balalayam Ritual Dakshina",
+    "category": "Priest & Rituals",
+    "amount": 5000.0
+  },
+  {
+    "sno": 28,
+    "date": "2026-07-08",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "கொட்டகை மகாலிங்கம்",
+    "descriptionEnglish": "Pandal / Shed Mahalingam",
+    "category": "Pandal & Shed",
+    "amount": 20000.0
+  },
+  {
+    "sno": 29,
+    "date": "2026-07-13",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "செம்பு கம்பி",
+    "descriptionEnglish": "Copper Wire / Rod",
+    "category": "Civil & Renovation",
+    "amount": 5000.0
+  },
+  {
+    "sno": 30,
+    "date": "2026-07-13",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "வண்டி வாடகை",
+    "descriptionEnglish": "Vehicle Rent",
+    "category": "Travel & Transport",
+    "amount": 2200.0
+  },
+  {
+    "sno": 31,
+    "date": "2026-07-13",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "(2 நபர்) சிற்பி அட்வான்ஸ்",
+    "descriptionEnglish": "Sculptor (Sirpi) Advance (2 persons)",
+    "category": "Labor & Wage",
+    "amount": 700.0
+  },
+  {
+    "sno": 32,
+    "date": "2026-07-13",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "சாப்பாடு",
+    "descriptionEnglish": "Food / Meals",
+    "category": "Prasadam & Food",
+    "amount": 550.0
+  },
+  {
+    "sno": 33,
+    "date": "2026-07-13",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "பெயிண்ட் பில்",
+    "descriptionEnglish": "Paint Purchase Bill",
+    "category": "Civil & Renovation",
+    "amount": 70050.0
+  },
+  {
+    "sno": 34,
+    "date": "2026-07-13",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "டீ செலவு",
+    "descriptionEnglish": "Tea Expense",
+    "category": "Prasadam & Food",
+    "amount": 150.0
+  },
+  {
+    "sno": 35,
+    "date": "2026-07-16",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "கல் சோடா, M-சீல்",
+    "descriptionEnglish": "Stone Soda & M-Seal",
+    "category": "Civil & Renovation",
+    "amount": 570.0
+  },
+  {
+    "sno": 36,
+    "date": "2026-07-19",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "Tea - cup",
+    "descriptionEnglish": "Paper Tea Cups",
+    "category": "Materials & Supplies",
+    "amount": 90.0
+  },
+  {
+    "sno": 37,
+    "date": "2026-07-19",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "கோலப்பொடி - 5 படி",
+    "descriptionEnglish": "Rangoli Powder (5 Padi)",
+    "category": "Pooja & Rituals",
+    "amount": 150.0
+  },
+  {
+    "sno": 38,
+    "date": "2026-07-19",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "சிடி கட்ட கூலி",
+    "descriptionEnglish": "Scaffolding / CD tying labor",
+    "category": "Labor & Wage",
+    "amount": 100.0
+  },
+  {
+    "sno": 39,
+    "date": "2026-07-19",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "சுரேஷ் வசம் சிமெண்ட் வாங்குனது 2 மூடை",
+    "descriptionEnglish": "Cement (2 bags through Suresh)",
+    "category": "Civil & Renovation",
+    "amount": 700.0
+  },
+  {
+    "sno": 40,
+    "date": "2026-07-24",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "பெயிண்ட் பில்",
+    "descriptionEnglish": "Paint Bill",
+    "category": "Civil & Renovation",
+    "amount": 990.0
+  },
+  {
+    "sno": 41,
+    "date": "2026-07-24",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "பஸ் காசு",
+    "descriptionEnglish": "Bus Fare",
+    "category": "Travel & Transport",
+    "amount": 100.0
+  },
+  {
+    "sno": 42,
+    "date": "2026-07-25",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "சைடு அடைத்தது சீட்டி டீப்",
+    "descriptionEnglish": "Side Covering Sheet & Deep",
+    "category": "Civil & Renovation",
+    "amount": 6300.0
+  },
+  {
+    "sno": 43,
+    "date": "2026-07-26",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "மகேஸ்வரன் மேளதாளம் அட்வான்ஸ் (9524553856)",
+    "descriptionEnglish": "Mageshwaran Melathalam Advance (1)",
+    "category": "Music & Sound",
+    "amount": 5000.0
+  },
+  {
+    "sno": 44,
+    "date": "2026-07-26",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "மகேஸ்வரன் மேளதாளம் அட்வான்ஸ் 2",
+    "descriptionEnglish": "Mageshwaran Melathalam Advance (2)",
+    "category": "Music & Sound",
+    "amount": 1000.0
+  },
+  {
+    "sno": 45,
+    "date": "2026-08-02",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "(4 நபர்) மதுரை நோட்டீஸ் போக்குவரத்து செலவு",
+    "descriptionEnglish": "Madurai Notice Travel (4 persons)",
+    "category": "Travel & Transport",
+    "amount": 600.0
+  },
+  {
+    "sno": 46,
+    "date": "2026-08-02",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "டீ செலவு",
+    "descriptionEnglish": "Tea Expense",
+    "category": "Prasadam & Food",
+    "amount": 160.0
+  },
+  {
+    "sno": 47,
+    "date": "2026-08-06",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "பாலபாண்டி பார்க்கபோன் செலவு",
+    "descriptionEnglish": "Balapandi Visit Travel Expense",
+    "category": "Travel & Transport",
+    "amount": 270.0
+  },
+  {
+    "sno": 48,
+    "date": "2026-08-07",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "கண்ணன் ரேடியோஸ்",
+    "descriptionEnglish": "Kannan Radios (Sound System)",
+    "category": "Music & Sound",
+    "amount": 10000.0
+  },
+  {
+    "sno": 49,
+    "date": "2026-08-14",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "நிலக்கோட்டை கவசம் பெட்ரோல் செலவு",
+    "descriptionEnglish": "Nilakkottai Kavasam Petrol Expense",
+    "category": "Travel & Transport",
+    "amount": 100.0
+  },
+  {
+    "sno": 50,
+    "date": "2026-08-15",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "மதுரை கதவு (2 நபர்) செலவு",
+    "descriptionEnglish": "Madurai Temple Door work travel (2 pers)",
+    "category": "Civil & Renovation",
+    "amount": 200.0
+  },
+  {
+    "sno": 51,
+    "date": "2026-08-16",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "விளக்கு",
+    "descriptionEnglish": "Deepam Lamp Purchase",
+    "category": "Materials & Supplies",
+    "amount": 20000.0
+  },
+  {
+    "sno": 52,
+    "date": "2026-08-16",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "கருப்பட்டி தோசை",
+    "descriptionEnglish": "Karuppatti Dosai (Tiffin)",
+    "category": "Prasadam & Food",
+    "amount": 100.0
+  },
+  {
+    "sno": 53,
+    "date": "2026-08-16",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "கொட்டகை",
+    "descriptionEnglish": "Pandal / Shed Expense",
+    "category": "Pandal & Shed",
+    "amount": 6000.0
+  },
+  {
+    "sno": 54,
+    "date": "2026-08-16",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "ஷீட் தட்டு செலவு",
+    "descriptionEnglish": "Roof Sheet & Plating",
+    "category": "Civil & Renovation",
+    "amount": 1800.0
+  },
+  {
+    "sno": 55,
+    "date": "2026-08-16",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "E.P. செலவு",
+    "descriptionEnglish": "Electrical (EP) Materials",
+    "category": "Civil & Renovation",
+    "amount": 1165.0
+  },
+  {
+    "sno": 56,
+    "date": "2026-08-16",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "E.P. எழுத்து கூலி",
+    "descriptionEnglish": "Electrical / Inscription Labor",
+    "category": "Labor & Wage",
+    "amount": 100.0
+  },
+  {
+    "sno": 57,
+    "date": "2026-08-20",
+    "event": "துர்க்கை அம்மன் சிலாப் செலவு",
+    "particularsTamil": "வேலை கூலி",
+    "descriptionEnglish": "Durga Amman Slab Work Labor",
+    "category": "Labor & Wage",
+    "amount": 1500.0
+  },
+  {
+    "sno": 58,
+    "date": "2026-08-20",
+    "event": "துர்க்கை அம்மன் சிலாப் செலவு",
+    "particularsTamil": "சிமெண்ட்",
+    "descriptionEnglish": "Cement Purchase",
+    "category": "Civil & Renovation",
+    "amount": 350.0
+  },
+  {
+    "sno": 59,
+    "date": "2026-08-20",
+    "event": "துர்க்கை அம்மன் சிலாப் செலவு",
+    "particularsTamil": "பெயிண்ட் கூலி (2 பெட்டி) & கண்ணாடி செட்",
+    "descriptionEnglish": "Painting Labor (2 boxes) & Mirror set",
+    "category": "Civil & Renovation",
+    "amount": 1000.0
+  },
+  {
+    "sno": 60,
+    "date": "2026-07-22",
+    "event": "முக்குறுந்தக்கல் செலவு",
+    "particularsTamil": "பூஜை சாமான்கள்",
+    "descriptionEnglish": "Mukkurunthakkal Pooja Items",
+    "category": "Pooja & Rituals",
+    "amount": 600.0
+  },
+  {
+    "sno": 61,
+    "date": "2026-07-22",
+    "event": "முக்குறுந்தக்கல் செலவு",
+    "particularsTamil": "மிட்டாய், கல்கண்டு",
+    "descriptionEnglish": "Sweets & Sugar Candy",
+    "category": "Prasadam & Food",
+    "amount": 200.0
+  },
+  {
+    "sno": 62,
+    "date": "2026-07-22",
+    "event": "முக்குறுந்தக்கல் செலவு",
+    "particularsTamil": "அழகர் கோவில் சென்ற செலவு",
+    "descriptionEnglish": "Alagar Kovil Travel",
+    "category": "Travel & Transport",
+    "amount": 1200.0
+  },
+  {
+    "sno": 63,
+    "date": "2026-07-22",
+    "event": "முக்குறுந்தக்கல் செலவு",
+    "particularsTamil": "நோட்டீஸ் அட்வான்ஸ்",
+    "descriptionEnglish": "Invitation / Notice Printing Advance",
+    "category": "Printing & Notice",
+    "amount": 5000.0
+  },
+  {
+    "sno": 64,
+    "date": "2026-07-22",
+    "event": "முக்குறுந்தக்கல் செலவு",
+    "particularsTamil": "நோட்டீஸ் பாக்கி",
+    "descriptionEnglish": "Invitation / Notice Balance",
+    "category": "Printing & Notice",
+    "amount": 7200.0
+  },
+  {
+    "sno": 65,
+    "date": "2026-08-22",
+    "event": "சூராயி அம்மன் கோவில் செலவு",
+    "particularsTamil": "சீட் (5 x 2050)",
+    "descriptionEnglish": "Roofing Sheets (5 nos @ 2050)",
+    "category": "Civil & Renovation",
+    "amount": 10250.0
+  },
+  {
+    "sno": 66,
+    "date": "2026-08-22",
+    "event": "சூராயி அம்மன் கோவில் செலவு",
+    "particularsTamil": "ஸ்க்ரூ",
+    "descriptionEnglish": "Screws & Hardware",
+    "category": "Civil & Renovation",
+    "amount": 200.0
+  },
+  {
+    "sno": 67,
+    "date": "2026-08-22",
+    "event": "சூராயி அம்மன் கோவில் செலவு",
+    "particularsTamil": "வண்டி வாடகை",
+    "descriptionEnglish": "Vehicle Rental",
+    "category": "Travel & Transport",
+    "amount": 500.0
+  },
+  {
+    "sno": 68,
+    "date": "2026-08-22",
+    "event": "சூராயி அம்மன் கோவில் செலவு",
+    "particularsTamil": "சம்பளம்",
+    "descriptionEnglish": "Labor Wage / Salary",
+    "category": "Labor & Wage",
+    "amount": 4000.0
+  },
+  {
+    "sno": 69,
+    "date": "2026-08-23",
+    "event": "சூராயி அம்மன் கோவில் செலவு",
+    "particularsTamil": "குமரன் டெக்ஸ் (காடா மங்கள்)",
+    "descriptionEnglish": "Kumaran Tex Cloth",
+    "category": "Textiles & Clothes",
+    "amount": 160.0
+  },
+  {
+    "sno": 70,
+    "date": "2026-08-23",
+    "event": "சூராயி அம்மன் கோவில் செலவு",
+    "particularsTamil": "Bill (பில் பொருட்கள்)",
+    "descriptionEnglish": "General Provisions Bill",
+    "category": "Provisions",
+    "amount": 740.0
+  },
+  {
+    "sno": 71,
+    "date": "2026-08-23",
+    "event": "சூராயி அம்மன் கோவில் செலவு",
+    "particularsTamil": "மண்ட வெல்லம்",
+    "descriptionEnglish": "Manda Jaggery",
+    "category": "Prasadam & Food",
+    "amount": 1223.0
+  },
+  {
+    "sno": 72,
+    "date": "2026-08-23",
+    "event": "சூராயி அம்மன் கோவில் செலவு",
+    "particularsTamil": "மாலை, பூ",
+    "descriptionEnglish": "Garland & Flowers",
+    "category": "Flowers & Garlands",
+    "amount": 350.0
+  },
+  {
+    "sno": 73,
+    "date": "2026-08-24",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "(2 பாட்) மைக் செட் ரேடியோஸ் (பெயிண்ட்)",
+    "descriptionEnglish": "Mic Set & Horn Unit (2 pots) Painting",
+    "category": "Music & Sound",
+    "amount": 2400.0
+  },
+  {
+    "sno": 74,
+    "date": "2026-08-24",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "கூடம் மெழுகு போடுதல்",
+    "descriptionEnglish": "Hall Polishing / Waxing",
+    "category": "Civil & Renovation",
+    "amount": 1700.0
+  },
+  {
+    "sno": 75,
+    "date": "2026-08-24",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "அழகர் கோவில் செலவு (தீர்த்தம்)",
+    "descriptionEnglish": "Alagar Kovil Holy Water (Theertham) Trip",
+    "category": "Travel & Transport",
+    "amount": 300.0
+  },
+  {
+    "sno": 76,
+    "date": "2026-08-25",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "பூ, மாலை (சரவணன்) - 1",
+    "descriptionEnglish": "Flowers & Garlands (Saravanan) 1",
+    "category": "Flowers & Garlands",
+    "amount": 20000.0
+  },
+  {
+    "sno": 77,
+    "date": "2026-08-25",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "பூ, மாலை (சரவணன்) - 2",
+    "descriptionEnglish": "Flowers & Garlands (Saravanan) 2",
+    "category": "Flowers & Garlands",
+    "amount": 11000.0
+  },
+  {
+    "sno": 78,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "செங்கல் செலவு",
+    "descriptionEnglish": "Brick Purchase",
+    "category": "Civil & Renovation",
+    "amount": 1000.0
+  },
+  {
+    "sno": 79,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "அணைப்பட்டி சென்ற செலவு",
+    "descriptionEnglish": "Anaipatti Travel Expense",
+    "category": "Travel & Transport",
+    "amount": 300.0
+  },
+  {
+    "sno": 80,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "இராமேஸ்வரம் சென்ற செலவு",
+    "descriptionEnglish": "Rameswaram Theertham Trip",
+    "category": "Travel & Transport",
+    "amount": 2000.0
+  },
+  {
+    "sno": 81,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "(ஈரோடு) கொடுமுடி சென்ற செலவு",
+    "descriptionEnglish": "Erode Kodumudi Travel",
+    "category": "Travel & Transport",
+    "amount": 300.0
+  },
+  {
+    "sno": 82,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "ரேடியோஸ் பாட் வாங்குனது",
+    "descriptionEnglish": "Horn / Speaker Unit Purchase",
+    "category": "Music & Sound",
+    "amount": 2200.0
+  },
+  {
+    "sno": 83,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக செலவு",
+    "particularsTamil": "கருங்காலி மரம் அந்தரி ஆசாரி கூலி",
+    "descriptionEnglish": "Karungali Wood Carpenter (Asari) Wage",
+    "category": "Labor & Wage",
+    "amount": 800.0
+  },
+  {
+    "sno": 84,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "பலகாரம்",
+    "descriptionEnglish": "Sweets & Snacks (Palagaram)",
+    "category": "Prasadam & Food",
+    "amount": 46000.0
+  },
+  {
+    "sno": 85,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "யாக கால பூஜை சாமான்",
+    "descriptionEnglish": "Yagashala Pooja Provisions",
+    "category": "Pooja & Rituals",
+    "amount": 55100.0
+  },
+  {
+    "sno": 86,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "சேங்கில் கூடை",
+    "descriptionEnglish": "Cane Baskets (Sengil Koodai)",
+    "category": "Materials & Supplies",
+    "amount": 1600.0
+  },
+  {
+    "sno": 87,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "கண்ணாடி",
+    "descriptionEnglish": "Mirror / Looking Glass",
+    "category": "Materials & Supplies",
+    "amount": 160.0
+  },
+  {
+    "sno": 88,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "பஸ் செலவு",
+    "descriptionEnglish": "Bus Fare",
+    "category": "Travel & Transport",
+    "amount": 100.0
+  },
+  {
+    "sno": 89,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "நூல்",
+    "descriptionEnglish": "Sacred Thread (Nool)",
+    "category": "Pooja & Rituals",
+    "amount": 120.0
+  },
+  {
+    "sno": 90,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "ஆட்டோ",
+    "descriptionEnglish": "Auto Fare",
+    "category": "Travel & Transport",
+    "amount": 100.0
+  },
+  {
+    "sno": 91,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "தர்பை கயிறு",
+    "descriptionEnglish": "Dharba Grass Rope",
+    "category": "Pooja & Rituals",
+    "amount": 160.0
+  },
+  {
+    "sno": 92,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "வேன் டிரைவர்",
+    "descriptionEnglish": "Van Driver Batta",
+    "category": "Travel & Transport",
+    "amount": 200.0
+  },
+  {
+    "sno": 93,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "சாப்பாடு செலவு",
+    "descriptionEnglish": "Food / Meals Expense",
+    "category": "Prasadam & Food",
+    "amount": 470.0
+  },
+  {
+    "sno": 94,
+    "date": "2026-08-26",
+    "event": "கும்பாபிஷேக நாள் செலவு",
+    "particularsTamil": "ஜவுளி",
+    "descriptionEnglish": "Textiles / Silk Vastram",
+    "category": "Textiles & Clothes",
+    "amount": 7231.0
+  },
+  {
+    "sno": 95,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "3 கொத்தனார் கூலி",
+    "descriptionEnglish": "Mason (Kothanar) Labor (3 persons)",
+    "category": "Labor & Wage",
+    "amount": 4500.0
+  },
+  {
+    "sno": 96,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "400 செங்கல் (திரும்பி எடுத்தது)",
+    "descriptionEnglish": "Bricks 400 nos (Return/Taken)",
+    "category": "Civil & Renovation",
+    "amount": 3500.0
+  },
+  {
+    "sno": 97,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "சாப்பாடு, டீ செலவு",
+    "descriptionEnglish": "Meals & Tea Expense",
+    "category": "Prasadam & Food",
+    "amount": 600.0
+  },
+  {
+    "sno": 98,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "நாகதீர்த்தம் கோவில் செலவு",
+    "descriptionEnglish": "Naga Theertham Temple Visit Expense",
+    "category": "Travel & Transport",
+    "amount": 300.0
+  },
+  {
+    "sno": 99,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "கொட்டகை",
+    "descriptionEnglish": "Pandal / Shed Expense (1)",
+    "category": "Pandal & Shed",
+    "amount": 13000.0
+  },
+  {
+    "sno": 100,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "கொட்டகை",
+    "descriptionEnglish": "Pandal / Shed Expense (2)",
+    "category": "Pandal & Shed",
+    "amount": 20000.0
+  },
+  {
+    "sno": 101,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "பெயிண்ட்டர் கூலி",
+    "descriptionEnglish": "Painter Labor",
+    "category": "Labor & Wage",
+    "amount": 1100.0
+  },
+  {
+    "sno": 102,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "சிலிண்டர் (4)",
+    "descriptionEnglish": "Gas Cylinders (4 nos)",
+    "category": "Prasadam & Food",
+    "amount": 4200.0
+  },
+  {
+    "sno": 103,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "சிலிண்டர் (2)",
+    "descriptionEnglish": "Gas Cylinders (2 nos)",
+    "category": "Prasadam & Food",
+    "amount": 2100.0
+  },
+  {
+    "sno": 104,
+    "date": "2026-08-27",
+    "event": "யாகசாலை செலவு",
+    "particularsTamil": "வித்தோ பசை",
+    "descriptionEnglish": "Adhesive / Paste (Vittho Basai)",
+    "category": "Materials & Supplies",
+    "amount": 100.0
+  },
+  {
+    "sno": 105,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "மொத்த Bill",
+    "descriptionEnglish": "Total Provisions / Store Bill",
+    "category": "Provisions",
+    "amount": 900.0
+  },
+  {
+    "sno": 106,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "Bill",
+    "descriptionEnglish": "Provisions Bill",
+    "category": "Provisions",
+    "amount": 350.0
+  },
+  {
+    "sno": 107,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "கேழ்வரகு",
+    "descriptionEnglish": "Ragi (Finger Millet)",
+    "category": "Prasadam & Food",
+    "amount": 360.0
+  },
+  {
+    "sno": 108,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "சூரி சமையல் மாஸ்டர்",
+    "descriptionEnglish": "Suriya Catering / Cook Master Charge",
+    "category": "Prasadam & Food",
+    "amount": 33000.0
+  },
+  {
+    "sno": 109,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "ஐயர்",
+    "descriptionEnglish": "Priest (Iyer) Sambhavanai / Dakshina",
+    "category": "Priest & Rituals",
+    "amount": 75000.0
+  },
+  {
+    "sno": 110,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "கண்ணன் ரேடியோஸ்",
+    "descriptionEnglish": "Kannan Radios (Sound System Final)",
+    "category": "Music & Sound",
+    "amount": 30000.0
+  },
+  {
+    "sno": 111,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "கண்ணன் ரேடியோஸ் (கூடுதல்)",
+    "descriptionEnglish": "Kannan Radios Additional",
+    "category": "Music & Sound",
+    "amount": 1000.0
+  },
+  {
+    "sno": 112,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "பந்தல் (3 கோவில்) & பாத்திரம் வாடகை",
+    "descriptionEnglish": "Pandal (3 Temples) & Vessels Rental",
+    "category": "Pandal & Shed",
+    "amount": 5100.0
+  },
+  {
+    "sno": 113,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "தேங்காய் (155 எண்ணம்)",
+    "descriptionEnglish": "Coconuts (155 nos)",
+    "category": "Pooja & Rituals",
+    "amount": 4200.0
+  },
+  {
+    "sno": 114,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "Bill",
+    "descriptionEnglish": "Bill Expenses (1)",
+    "category": "Provisions",
+    "amount": 750.0
+  },
+  {
+    "sno": 115,
+    "date": "2026-08-27",
+    "event": "யாகசாலை & கோவில் செலவு",
+    "particularsTamil": "Bill",
+    "descriptionEnglish": "Bill Expenses (2)",
+    "category": "Provisions",
+    "amount": 890.0
+  },
+  {
+    "sno": 116,
+    "date": "2026-08-29",
+    "event": "கும்பாபிஷேக நிறைவு செலவு",
+    "particularsTamil": "பாண்டியன் ஸ்டோர் Bill",
+    "descriptionEnglish": "Pandiyan Store Bill",
+    "category": "Pooja & Rituals",
+    "amount": 3307.0
+  },
+  {
+    "sno": 117,
+    "date": "2026-08-29",
+    "event": "கும்பாபிஷேக நிறைவு செலவு",
+    "particularsTamil": "கதவு (அட்வான்ஸ்)",
+    "descriptionEnglish": "Temple Door Making Advance",
+    "category": "Civil & Renovation",
+    "amount": 5000.0
+  }
+]

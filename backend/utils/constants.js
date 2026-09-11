@@ -1,0 +1,81 @@
+module.exports = {
+  ROLES: ['ADMIN', 'COMMITTEE_MEMBER', 'VIEWER'],
+
+  PAYMENT_METHODS: ['CASH', 'UPI', 'BANK', 'OTHER'],
+
+  RECORD_STATUS: ['ACTIVE', 'CANCELLED'],
+
+  LEDGER_TYPES: [
+    'VARI_RECEIVED',
+    'CONTRIBUTION_RECEIVED',
+    'DONATION_RECEIVED',
+    'INTEREST_RECEIVED',
+    'PRINCIPAL_RECEIVED',
+    'OTHER_INCOME',
+    'EXPENSE',
+    'SIRPI_EXPENSE',
+    'FUND_GIVEN',
+    'REFUND',
+    'ADJUSTMENT',
+  ],
+
+  LEDGER_DIRECTIONS: ['CREDIT', 'DEBIT'],
+
+  // Which direction each ledger type normally represents. Used as a
+  // safety check in ledgerService so a controller can't accidentally
+  // log a FUND_GIVEN as a CREDIT, for example.
+  LEDGER_TYPE_DIRECTION: {
+    VARI_RECEIVED: 'CREDIT',
+    CONTRIBUTION_RECEIVED: 'CREDIT',
+    DONATION_RECEIVED: 'CREDIT',
+    INTEREST_RECEIVED: 'CREDIT',
+    PRINCIPAL_RECEIVED: 'CREDIT',
+    OTHER_INCOME: 'CREDIT',
+    REFUND: 'CREDIT',
+    EXPENSE: 'DEBIT',
+    SIRPI_EXPENSE: 'DEBIT',
+    FUND_GIVEN: 'DEBIT',
+    ADJUSTMENT: 'EITHER', // opening balance / correction can be either direction
+  },
+
+  INTEREST_TYPES: ['SIMPLE', 'MONTHLY', 'YEARLY', 'CUSTOM'],
+
+  FUND_ADVANCE_STATUS: ['ACTIVE', 'PARTIALLY_REPAID', 'CLOSED', 'OVERDUE', 'CANCELLED'],
+
+  FUND_TXN_TYPES: ['DISBURSEMENT', 'PRINCIPAL_REPAYMENT', 'INTEREST_PAYMENT'],
+
+  DONATION_PURPOSES: [
+    'GENERAL_TEMPLE_FUND',
+    'RENOVATION',
+    'FESTIVAL',
+    'ANNADHANAM',
+    'POOJA',
+    'CONSTRUCTION',
+    'OTHER',
+  ],
+
+  DEFAULT_CONTRIBUTION_TYPES: [
+    'NEETHI',
+    'FESTIVAL_CONTRIBUTION',
+    'RENOVATION_CONTRIBUTION',
+    'SPECIAL_CONTRIBUTION',
+    'OTHER',
+  ],
+
+  DEFAULT_EXPENSE_CATEGORIES: [
+    'POOJA',
+    'PRIEST',
+    'ELECTRICITY',
+    'WATER',
+    'CLEANING',
+    'MAINTENANCE',
+    'REPAIR',
+    'CONSTRUCTION',
+    'FESTIVAL',
+    'ANNADHANAM',
+    'DECORATION',
+    'OTHER',
+  ],
+
+  VARI_STATUS: ['PAID', 'PARTIAL', 'PENDING'],
+};
