@@ -16,11 +16,11 @@ export function Topbar({ onMenuClick }) {
           >
             <Menu className="w-6 h-6" />
           </button>
-          <span className="hidden md:inline-block text-[11px] font-semibold uppercase tracking-wider text-temple-700 bg-temple-50 border border-temple-200 px-2.5 py-1 rounded-full">
-            Tamil Nadu Village Ledger
+          <span className="hidden md:inline-block text-xs font-semibold text-temple-800 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full">
+            அருள்மிகு சூராயம்மன் கோவில் துணை
           </span>
-          <span className="md:hidden text-xs font-bold text-amber-900 font-serif truncate max-w-[120px] xs:max-w-[160px]">
-            Temple System
+          <span className="md:hidden text-xs font-bold text-amber-900 font-serif truncate max-w-[180px] xs:max-w-[220px]">
+            அருள்மிகு சூராயம்மன் கோவில் துணை
           </span>
         </div>
 

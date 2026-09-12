@@ -13,13 +13,17 @@ import {
   HeartHandshake,
   CheckCircle2,
   Hammer,
+  Download,
+  FileSpreadsheet,
 } from 'lucide-react';
 import { dashboardApi } from '../../api/dashboardApi';
 import { formatINR, paiseToWords } from '../../utils/money';
+import { downloadExport } from '../../utils/exportHelper';
 
 export function DashboardPage() {
   const [summary, setSummary] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [exporting, setExporting] = useState(false);
 
   useEffect(() => {
     fetchSummary();
@@ -39,6 +43,17 @@ export function DashboardPage() {
     }
   };
 
+  const handleExport = async (format) => {
+    setExporting(true);
+    try {
+      await downloadExport('/dashboard/export', 'Dashboard_Financial_Summary', {}, format);
+    } catch (err) {
+      alert(err.message || 'Export failed.');
+    } finally {
+      setExporting(false);
+    }
+  };
+
   const variTotal = summary?.totalVariReceivedPaise || 0;
   const donationTotal = summary?.totalDonationReceivedPaise || 0;
   const combinedVariAndDonation = summary?.totalVariAndDonationPaise ?? (variTotal + donationTotal);
@@ -49,14 +64,14 @@ export function DashboardPage() {
   const coreCards = [
     {
       id: 'vari',
-      title: 'Total Pangali Vari Collection',
+      title: 'பங்காளிகள் வரி வசூல் மொத்தம்',
       rawPaise: variTotal,
       value: loading ? '...' : formatINR(variTotal),
       words: loading ? '' : paiseToWords(variTotal),
-      subtitle: `From ${summary?.pangaliCount || 0} registered Pangalis (${summary?.variCount || 0} payments)`,
-      notice: 'Vari Ledger',
+      subtitle: `${summary?.pangaliCount || 0} பங்காளிகள் (${summary?.variCount || 0} வசூல்கள்)`,
+      notice: 'வரி கணக்கு ஏடு',
       icon: Users,
-      link: '/vari',
+      link: '/vari-collection',
       accentColor: 'border-l-4 border-l-amber-600 bg-amber-50/40 hover:bg-amber-50/70',
       badgeBg: 'bg-amber-100 text-amber-900 border-amber-200',
       iconBg: 'text-amber-700 bg-amber-100/80',
@@ -65,12 +80,12 @@ export function DashboardPage() {
     },
     {
       id: 'donations',
-      title: 'Total Cash Donations Received',
+      title: 'பண நன்கொடைகள் மொத்தம்',
       rawPaise: donationTotal,
       value: loading ? '...' : formatINR(donationTotal),
       words: loading ? '' : paiseToWords(donationTotal),
-      subtitle: `${summary?.donationCount || 0} cash offerings in Donations Ledger`,
-      notice: 'Donations Ledger',
+      subtitle: `${summary?.donationCount || 0} பண நன்கொடைகள் பதிவுகள்`,
+      notice: 'நன்கொடை ஏடு',
       icon: Gift,
       link: '/donations',
       accentColor: 'border-l-4 border-l-emerald-600 bg-emerald-50/40 hover:bg-emerald-50/70',
@@ -81,12 +96,12 @@ export function DashboardPage() {
     },
     {
       id: 'combined',
-      title: 'Vari Collection + Cash Donations',
+      title: 'வரி வசூல் + நன்கொடை மொத்தம்',
       rawPaise: combinedVariAndDonation,
       value: loading ? '...' : formatINR(combinedVariAndDonation),
       words: loading ? '' : paiseToWords(combinedVariAndDonation),
-      subtitle: 'Combined total from Vari + Cash Donations',
-      notice: 'Sum of Vari & Cash',
+      subtitle: 'வரி வசூல் மற்றும் பண நன்கொடை கூட்டுத்தொகை',
+      notice: 'கூட்டுத்தொகை',
       icon: Coins,
       link: '/reports',
       accentColor: 'border-l-4 border-l-blue-600 bg-blue-50/40 hover:bg-blue-50/70',
@@ -97,12 +112,12 @@ export function DashboardPage() {
     },
     {
       id: 'expenses',
-      title: 'Temple Expenses Done',
+      title: 'கோவில் செலவுகள் மொத்தம்',
       rawPaise: expenseTotal,
       value: loading ? '...' : formatINR(expenseTotal),
       words: loading ? '' : paiseToWords(expenseTotal),
-      subtitle: 'Renovation, Kumbabishekam & operational costs',
-      notice: 'Expenses Ledger',
+      subtitle: 'கும்பாபிஷேகம், திருப்பணி & பொது பராமரிப்பு',
+      notice: 'செலவு ஏடு',
       icon: TrendingDown,
       link: '/expenses',
       accentColor: 'border-l-4 border-l-rose-600 bg-rose-50/40 hover:bg-rose-50/70',
@@ -113,12 +128,12 @@ export function DashboardPage() {
     },
     {
       id: 'sirpi',
-      title: 'Sirpi Expenses (சிற்பி செலவு)',
+      title: 'சிற்பி வேலை செலவுகள்',
       rawPaise: sirpiTotal,
       value: loading ? '...' : formatINR(sirpiTotal),
       words: loading ? '' : paiseToWords(sirpiTotal),
-      subtitle: `Sculpture work payments (${summary?.sirpiCount || 0} records)`,
-      notice: 'Sirpi Ledger',
+      subtitle: `சிற்பி வேலை செலுத்துதல்கள் (${summary?.sirpiCount || 0} பதிவுகள்)`,
+      notice: 'சிற்பி செலவு ஏடு',
       icon: Hammer,
       link: '/sirpi-expenses',
       accentColor: 'border-l-4 border-l-orange-600 bg-orange-50/40 hover:bg-orange-50/70',
@@ -129,12 +144,12 @@ export function DashboardPage() {
     },
     {
       id: 'balance',
-      title: 'Current Balance',
+      title: 'தற்போதைய நிலுவை இருப்பு',
       rawPaise: currentBalance,
       value: loading ? '...' : formatINR(currentBalance),
       words: loading ? '' : paiseToWords(currentBalance),
-      subtitle: 'Net available cash balance after all expenses',
-      notice: 'Live Net Balance',
+      subtitle: 'அனைத்து செலவுகளுக்கும் போக உள்ள நிகர ரொக்க இருப்பு',
+      notice: 'நிகர கணக்கு இருப்பு',
       icon: Wallet,
       link: '/reports',
       accentColor: 'border-l-4 border-l-slate-900 bg-slate-900 text-white hover:bg-slate-850 shadow-sm',
@@ -148,31 +163,54 @@ export function DashboardPage() {
 
   const secondaryCards = [
     {
-      title: 'Total In-Kind Contributions',
+      title: 'பொருள் வடிவிலான பங்களிப்புகள்',
       value: loading ? '...' : formatINR(summary?.totalContributionReceivedPaise || 0),
       words: loading ? '' : paiseToWords(summary?.totalContributionReceivedPaise || 0),
-      subtitle: 'Material & non-cash estimates',
+      subtitle: 'பொருட்கள் மற்றும் வரவுகள்',
       icon: HeartHandshake,
       link: '/contributions',
     },
     {
-      title: 'Total Interest Received',
+      title: 'பெறப்பட்ட வட்டி மொத்தம்',
       value: loading ? '...' : formatINR(summary?.totalInterestReceivedPaise || 0),
       words: loading ? '' : paiseToWords(summary?.totalInterestReceivedPaise || 0),
-      subtitle: 'Fund advance & bank interest',
+      subtitle: 'வங்கி & கடன் வட்டி வருவாய்கள்',
       icon: Percent,
+      link: '/interest',
     },
   ];
 
   return (
     <div className="space-y-6">
-      {/* Page Header */}
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      {/* Page Header with Title and Export Actions */}
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-stone-200/80 pb-4">
         <div>
-          <h1 className="text-2xl font-bold font-serif text-stone-900">Financial Overview</h1>
+          <h1 className="text-2xl font-bold font-serif text-stone-900">நிதி நிலை மேலோட்டம்</h1>
           <p className="text-sm text-stone-600 mt-0.5">
-            Real-time financial breakdown derived strictly from the central immutable ledger.
+            மைய கணக்கு ஏட்டிலிருந்து நேரடி நிதி விபரங்கள் (Real-time Financial Dashboard)
           </p>
+        </div>
+
+        {/* Dashboard Export Action Buttons */}
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => handleExport('csv')}
+            disabled={exporting}
+            className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-stone-700 bg-white hover:bg-stone-50 border border-stone-300 rounded-lg shadow-2xs transition-colors disabled:opacity-50 cursor-pointer"
+            title="Export CSV"
+          >
+            <Download className="w-3.5 h-3.5" />
+            <span>Export CSV</span>
+          </button>
+          <button
+            onClick={() => handleExport('xlsx')}
+            disabled={exporting}
+            className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 rounded-lg shadow-2xs transition-colors disabled:opacity-50 cursor-pointer"
+            title="Export Excel (With Temple Logo Banner)"
+          >
+            <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-600" />
+            <span>Export Excel</span>
+          </button>
         </div>
       </div>
 
@@ -180,9 +218,9 @@ export function DashboardPage() {
       <div className="p-4 rounded-xl bg-amber-50/70 border border-amber-200 flex items-start gap-3 text-amber-950 shadow-2xs">
         <CheckCircle2 className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
         <div>
-          <h4 className="text-sm font-bold">Ledger Integration Active</h4>
+          <h4 className="text-sm font-bold">மின்னணு கணக்கு ஏடு நேரலையில் உள்ளது</h4>
           <p className="text-xs text-amber-900/80 mt-0.5">
-            All financial metrics (including Sirpi Expenses) display live ledger totals with full rupee word representations. Current Balance reflects net cash balance.
+            அனைத்து நிதி அளவீடுகளும் (சிற்பி செலவுகள் உட்பட) நேரடி கணக்கு ஏட்டின் அடிப்படையில் துல்லியமாக காட்டப்படுகின்றன.
           </p>
         </div>
       </div>
@@ -191,7 +229,7 @@ export function DashboardPage() {
       <div>
         <h2 className="text-base font-bold font-serif text-stone-800 mb-4 flex items-center gap-2">
           <Scale className="w-4 h-4 text-amber-600" />
-          <span>Core Financial Summary</span>
+          <span>முக்கிய நிதி சுருக்கம் (Core Financial Summary)</span>
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -207,8 +245,8 @@ export function DashboardPage() {
                 <div>
                   <div className="flex items-start justify-between gap-2">
                     <span
-                      className={`text-[11px] font-bold uppercase tracking-wider ${
-                        card.isDark ? 'text-slate-300' : 'text-stone-700'
+                      className={`text-xs font-bold ${
+                        card.isDark ? 'text-amber-300' : 'text-stone-800'
                       }`}
                     >
                       {card.title}
@@ -219,7 +257,7 @@ export function DashboardPage() {
                   </div>
 
                   <div className="mt-3">
-                    {/* Rupee Amount with Styled Serif Typography */}
+                    {/* Rupee Amount */}
                     <div className={card.valueColor}>
                       {card.value}
                     </div>
@@ -243,7 +281,7 @@ export function DashboardPage() {
                   </span>
 
                   <span className={`inline-flex items-center gap-1 text-xs font-bold ${card.isDark ? 'text-amber-400 hover:text-amber-300' : 'text-stone-800 hover:text-stone-950'}`}>
-                    View <ArrowRight className="w-3.5 h-3.5" />
+                    பார்க்க <ArrowRight className="w-3.5 h-3.5" />
                   </span>
                 </div>
               </Link>
@@ -253,7 +291,7 @@ export function DashboardPage() {
       </div>
 
       {/* Secondary Metrics */}
-      <h2 className="text-base font-bold font-serif text-stone-800 pt-2">Additional Ledger Summary</h2>
+      <h2 className="text-base font-bold font-serif text-stone-800 pt-2">கூடுதல் கணக்கு விபரம் (Additional Ledger Summary)</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {secondaryCards.map((card) => (
           <Link key={card.title} to={card.link} className="block">
@@ -269,11 +307,12 @@ export function DashboardPage() {
 
       {/* System Status Block */}
       <div className="bg-white rounded-xl border border-stone-200 p-6 shadow-xs">
-        <h3 className="text-lg font-bold font-serif text-stone-900 mb-2">Immutable Financial Accounting</h3>
+        <h3 className="text-lg font-bold font-serif text-stone-900 mb-2">நிதி கணக்கு மேலாண்மை அமைப்பு</h3>
         <p className="text-sm text-stone-600 leading-relaxed">
-          The temple accounting system computes live financial balances derived strictly from verified ledger entries across Pangali Vari payments, Cash Donations, General Expenses, and Sirpi Expenses.
+          அருள்மிகு சூராயம்மன் கோவில் நிதி மேலாண்மை அமைப்பு மூலம் பங்காளிகள் வரி செலுத்தல், நன்கொடைகள், பொதுச் செலவுகள் மற்றும் சிற்பி செலவுகள் நேரடி கணக்கு ஏட்டிலிருந்து துல்லியமாக கணக்கிடப்பட்டு பராமரிக்கப்படுகின்றன.
         </p>
       </div>
     </div>
   );
 }
+

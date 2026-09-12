@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
 import { Phone, Lock, AlertCircle, ArrowRight } from 'lucide-react';
+import logo from '../../assets/logo.jpeg';
 
 export function LoginPage() {
   const { login } = useAuth();
@@ -38,15 +39,15 @@ export function LoginPage() {
     <div className="min-h-screen bg-stone-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <div className="flex justify-center">
-          <div className="w-16 h-16 rounded-2xl bg-forest-700 text-amber-300 flex items-center justify-center text-3xl shadow-lg border border-forest-600">
-            🛕
+          <div className="w-24 h-24 rounded-2xl bg-white text-amber-300 flex items-center justify-center shadow-lg border-2 border-amber-300 overflow-hidden p-1">
+            <img src={logo} alt="அருள்மிகு சூராயம்மன் கோவில் துணை" className="w-full h-full object-cover rounded-xl" />
           </div>
         </div>
-        <h2 className="mt-4 text-center text-3xl font-bold font-serif tracking-tight text-stone-900">
-          Village Temple Finance
+        <h2 className="mt-4 text-center text-2xl sm:text-3xl font-bold font-serif tracking-tight text-stone-900 leading-snug">
+          அருள்மிகு சூராயம்மன் கோவில் துணை
         </h2>
-        <p className="mt-2 text-center text-sm text-stone-600">
-          Secure Accounting & Ledger Portal
+        <p className="mt-2 text-center text-sm font-medium text-stone-600">
+          நிதி நிர்வாக அமைப்பு (Finance Management System)
         </p>
       </div>
 

@@ -1,5 +1,5 @@
 const express = require('express');
-const { getDashboardSummary } = require('../controllers/dashboardController');
+const { getDashboardSummary, exportDashboardSummary } = require('../controllers/dashboardController');
 const { verifyToken } = require('../middleware/auth');
 
 const router = express.Router();
@@ -7,5 +7,7 @@ const router = express.Router();
 router.use(verifyToken);
 
 router.get('/summary', getDashboardSummary);
+router.get('/export', exportDashboardSummary);
 
 module.exports = router;
+

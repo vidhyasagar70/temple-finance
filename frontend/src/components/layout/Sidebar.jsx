@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
+import logo from '../../assets/logo.jpeg';
 import {
   LayoutDashboard,
   Users,
@@ -70,17 +71,17 @@ export function Sidebar({ isOpen, onClose }) {
         }`}
       >
         {/* Header */}
-        <div className="flex items-center justify-between px-6 py-5 border-b border-forest-600">
-          <div className="flex items-center space-x-3">
-            <div className="w-9 h-9 rounded-full bg-temple-500 flex items-center justify-center text-white font-bold text-lg shadow">
-              🛕
+        <div className="flex items-center justify-between px-4 py-4 border-b border-forest-600">
+          <div className="flex items-center space-x-3 min-w-0">
+            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow overflow-hidden border border-amber-300 shrink-0 p-0.5">
+              <img src={logo} alt="Logo" className="w-full h-full object-cover rounded-full" />
             </div>
-            <div>
-              <h1 className="font-serif text-lg font-bold text-amber-100 leading-tight">
-                Temple Finance
+            <div className="min-w-0 flex-1">
+              <h1 className="font-serif text-sm font-bold text-amber-100 leading-tight truncate" title="அருள்மிகு சூராயம்மன் கோவில் துணை">
+                அருள்மிகு சூராயம்மன் கோவில் துணை
               </h1>
-              <p className="text-[10px] text-emerald-200 tracking-wider uppercase">
-                Village Ledger
+              <p className="text-[10px] text-emerald-200 tracking-wider uppercase font-semibold">
+                நிதி நிர்வாக அமைப்பு
               </p>
             </div>
           </div>
@@ -119,8 +120,8 @@ export function Sidebar({ isOpen, onClose }) {
 
         {/* Footer info */}
         <div className="p-4 border-t border-forest-600 bg-forest-800/50 text-xs text-stone-300 pb-safe">
-          <p className="font-semibold text-amber-200">Village Temple System</p>
-          <p className="text-[11px] text-emerald-300/80">Accountability & Ledger</p>
+          <p className="font-semibold text-amber-200">அருள்மிகு சூராயம்மன் கோவில்</p>
+          <p className="text-[11px] text-emerald-300/80">கணக்கு & நிதி நிர்வாக அமைப்பு</p>
         </div>
       </aside>
     </>
