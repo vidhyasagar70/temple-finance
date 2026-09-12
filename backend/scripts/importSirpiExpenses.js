@@ -88,6 +88,25 @@ async function importSirpiExpenses() {
     });
 
     if (existing) {
+      if (!existing.ledgerTransactionId) {
+        await safeTransaction(async (session) => {
+          const createOptions = session ? { session } : {};
+          const ledgerTxn = await ledgerService.createLedgerEntry({
+            session,
+            date: existing.date,
+            type: 'SIRPI_EXPENSE',
+            direction: 'DEBIT',
+            amountPaise,
+            sourceType: 'SirpiExpense',
+            sourceId: existing._id,
+            paymentMethod: 'CASH',
+            description: `Sirpi Expense - Paid through ${paidThrough}, Received by ${receivedBy}`,
+            createdBy: adminUser._id,
+          });
+          existing.ledgerTransactionId = ledgerTxn._id;
+          await existing.save(createOptions);
+        });
+      }
       skippedCount++;
       totalAmountPaise += amountPaise;
       datesSet.add(dateStr);

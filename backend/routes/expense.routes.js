@@ -6,6 +6,7 @@ const {
   getExpensesByDate,
   updateExpense,
   cancelExpense,
+  deleteExpense,
   exportExpenses,
 } = require('../controllers/expenseController');
 const { verifyToken } = require('../middleware/auth');
@@ -35,6 +36,7 @@ router.post(
 );
 
 router.put('/:id', requireRole('ADMIN', 'COMMITTEE_MEMBER'), updateExpense);
-router.put('/:id/cancel', requireRole('ADMIN'), cancelExpense);
+router.put('/:id/cancel', requireRole('ADMIN', 'COMMITTEE_MEMBER'), cancelExpense);
+router.delete('/:id', requireRole('ADMIN', 'COMMITTEE_MEMBER'), deleteExpense);
 
 module.exports = router;

@@ -231,6 +231,34 @@ const cancelExpense = asyncHandler(async (req, res) => {
   res.json({ success: true, data: expense });
 });
 
+const deleteExpense = asyncHandler(async (req, res) => {
+  const { reason } = req.body || {};
+  const expense = await Expense.findById(req.params.id);
+  if (!expense) {
+    throw ApiError.notFound('Expense record not found');
+  }
+
+  await runWithTransaction(async (session) => {
+    const opts = session ? { session } : {};
+    expense.status = 'CANCELLED';
+    expense.cancelledAt = new Date();
+    expense.cancelledBy = req.user.id;
+    expense.cancelReason = reason || 'Deleted by user';
+    await expense.save(opts);
+
+    if (expense.ledgerTransactionId) {
+      await ledgerService.cancelLedgerEntry({
+        session,
+        ledgerTransactionId: expense.ledgerTransactionId,
+        cancelledBy: req.user.id,
+        cancelReason: reason || 'Deleted by user',
+      });
+    }
+  });
+
+  res.json({ success: true, message: 'Expense deleted successfully', data: expense });
+});
+
 const updateExpense = asyncHandler(async (req, res) => {
   const {
     category,
@@ -415,5 +443,6 @@ module.exports = {
   getExpensesByDate,
   updateExpense,
   cancelExpense,
+  deleteExpense,
   exportExpenses,
 };

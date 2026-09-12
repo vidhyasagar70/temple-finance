@@ -16,4 +16,7 @@ export const expenseApi = {
   cancelExpense: (id, reason) => {
     return axiosClient.put(`/expenses/${id}/cancel`, { reason });
   },
+  deleteExpense: (id, reason) => {
+    return axiosClient.delete(`/expenses/${id}`, { data: { reason } });
+  },
 };
