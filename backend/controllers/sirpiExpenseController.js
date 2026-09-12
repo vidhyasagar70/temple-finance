@@ -70,7 +70,7 @@ const createSirpiExpense = asyncHandler(async (req, res) => {
 const listSirpiExpenses = asyncHandler(async (req, res) => {
   const { search, paymentMethod, from, to, page = 1, limit = 20 } = req.query;
 
-  const query = {};
+  const query = { status: 'ACTIVE' };
   if (paymentMethod) query.paymentMethod = paymentMethod;
   if (search) {
     const regex = new RegExp(search, 'i');
@@ -196,7 +196,7 @@ const updateSirpiExpense = asyncHandler(async (req, res) => {
 const exportSirpiExpenses = asyncHandler(async (req, res) => {
   const { format = 'csv', search, paymentMethod, from, to } = req.query;
 
-  const query = {};
+  const query = { status: 'ACTIVE' };
   if (paymentMethod) query.paymentMethod = paymentMethod;
   if (search) {
     const regex = new RegExp(search, 'i');

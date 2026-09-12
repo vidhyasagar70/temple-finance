@@ -77,9 +77,14 @@ const createDonation = asyncHandler(async (req, res) => {
 });
 
 const buildDonationQuery = (params) => {
-  const { purpose, festivalId, from, to, minAmount, maxAmount, search } = params;
+  const { purpose, festivalId, from, to, minAmount, maxAmount, search, status } = params;
 
   const query = {};
+  if (status && status !== 'ALL' && status !== 'all') {
+    query.status = status;
+  } else if (!status) {
+    query.status = 'ACTIVE';
+  }
   if (purpose) query.purpose = purpose;
   if (festivalId) query.festivalId = festivalId;
   if (from || to) {

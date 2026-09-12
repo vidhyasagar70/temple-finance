@@ -83,7 +83,7 @@ const createExpense = asyncHandler(async (req, res) => {
 const listExpenses = asyncHandler(async (req, res) => {
   const { category, festivalId, paymentMethod, from, to, page = 1, limit = 20 } = req.query;
 
-  const query = {};
+  const query = { status: 'ACTIVE' };
   if (category) query.category = category;
   if (festivalId) query.festivalId = festivalId;
   if (paymentMethod) query.paymentMethod = paymentMethod;
@@ -329,7 +329,7 @@ const updateExpense = asyncHandler(async (req, res) => {
 const exportExpenses = asyncHandler(async (req, res) => {
   const { format = 'csv', category, festivalId, paymentMethod, from, to } = req.query;
 
-  const query = {};
+  const query = { status: 'ACTIVE' };
   if (category) query.category = category;
   if (festivalId) query.festivalId = festivalId;
   if (paymentMethod) query.paymentMethod = paymentMethod;
